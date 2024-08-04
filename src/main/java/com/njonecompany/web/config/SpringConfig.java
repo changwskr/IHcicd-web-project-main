@@ -15,7 +15,10 @@ import org.springframework.web.servlet.view.JstlView;
 public class SpringConfig implements WebMvcConfigurer {
 
 
-
+    /**
+     * 0804 01 테스트 입니다.
+     * @param registry
+     */
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {

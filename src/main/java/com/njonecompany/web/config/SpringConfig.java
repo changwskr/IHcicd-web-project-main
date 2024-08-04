@@ -24,6 +24,11 @@ public class SpringConfig implements WebMvcConfigurer {
      * 두번째 테스트
      * @param registry
      */
+
+    /**
+     * merget 테스트
+     * @param registry
+     */
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**")

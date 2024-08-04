@@ -14,6 +14,9 @@ import org.springframework.web.servlet.view.JstlView;
 @ComponentScan({"com.njonecompany.web"})
 public class SpringConfig implements WebMvcConfigurer {
 
+
+
+
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**")

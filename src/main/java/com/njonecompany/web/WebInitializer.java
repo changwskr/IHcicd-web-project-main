@@ -3,6 +3,9 @@ package com.njonecompany.web;
 import com.njonecompany.web.config.SpringConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+/**
+ * ㄴㅇㄹㄴㄹㅇㄴ
+ */
 public class WebInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
     @Override

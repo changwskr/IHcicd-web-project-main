@@ -14,9 +14,6 @@ import org.springframework.web.servlet.view.JstlView;
 @ComponentScan({"com.njonecompany.web"})
 public class SpringConfig implements WebMvcConfigurer {
 
-
-
-
     /**
      * 0804 01 테스트 입니다.
      * @param registry

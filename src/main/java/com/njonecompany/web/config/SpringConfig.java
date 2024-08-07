@@ -30,7 +30,10 @@ public class SpringConfig implements WebMvcConfigurer {
      */
 
 
-
+    /**
+     * polling
+     * @param registry
+     */
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**")
